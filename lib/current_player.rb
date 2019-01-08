@@ -3,8 +3,8 @@ def turn_count(board)
   board.each do |space|
     space == "X" || space == "O"
     turns += 1
-    return turns
   end
+  return turns
 end
 
 def current_player(turns)
