@@ -9,5 +9,4 @@ end
 def current_player(turns)
   turns % 2 != 0
     player = "X"
-  end
 end
